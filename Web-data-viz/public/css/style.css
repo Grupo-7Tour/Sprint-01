@@ -1,0 +1,85 @@
+:root {
+  --tamanho-banner: 400px;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: #f7f6f3;
+}
+
+.header {
+  width: 100%;
+  padding: 20px 24px;
+  display: flex;
+  justify-content: center;
+  position: fixed;  
+  top: 0; 
+  z-index: 100; 
+  background: transparent; 
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  background: white;
+  border: 1px solid #e0ded9;
+  border-radius: 100px;
+  padding: 14px 32px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+}
+
+.navbar a {
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.82rem;
+  font-weight: 400;
+  color: #333333;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+
+.navbar a:hover {
+  color: #f5a623;
+}
+
+.banner {
+  height: 500px;
+  background-image: url("../assets/imgs/image.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.banner .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.banner-titulo {
+  font-family: "Syne", sans-serif;
+  font-size: 80px; 
+  font-weight: 800;
+  color: #f5a623; 
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.banner-texto {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: white;
+  width: 50%;
+  line-height: 1.5;
+}
